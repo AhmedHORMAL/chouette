@@ -12,7 +12,7 @@
 		<maven.build.timestamp.format>yyyy-MM-dd_HH-mm</maven.build.timestamp.format>
 		<build.timestamp>${maven.build.timestamp}</build.timestamp>
 		<chouette.publishRelease.activateArtifactFolder>true</chouette.publishRelease.activateArtifactFolder>
-		<spring.version>3.2.2.RELEASE</spring.version>
+		<spring.version>3.2.9.RELEASE</spring.version>
 		<hibernate.version>3.6.10.Final</hibernate.version>
 	</properties>
 
@@ -219,7 +219,7 @@
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
-				<version>5.14.6</version>
+				<version>7.3.0</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
