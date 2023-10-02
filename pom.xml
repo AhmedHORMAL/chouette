@@ -13,7 +13,7 @@
 		<build.timestamp>${maven.build.timestamp}</build.timestamp>
 		<chouette.publishRelease.activateArtifactFolder>true</chouette.publishRelease.activateArtifactFolder>
 		<spring.version>3.2.2.RELEASE</spring.version>
-		<hibernate.version>3.6.10.Final</hibernate.version>
+		<hibernate.version>5.1.17.Final</hibernate.version>
 	</properties>
 
 	<modules>
@@ -312,7 +312,7 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-log4j12</artifactId>
-				<version>1.6.1</version>
+				<version>1.7.34</version>
 			</dependency>
 
 			<!-- Hibernate -->
